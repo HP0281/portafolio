@@ -1,0 +1,16 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  .menu{
+    display: flex;
+    align-items: center;
+  }
+  app-header{
+    position: fixed;
+    left: 0;
+    top: 30vh;
+  }
+  router-outlet{
+    margin-left: 150px;
+  }
+}

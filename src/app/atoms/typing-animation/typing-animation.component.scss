@@ -1,0 +1,30 @@
+.typing-container {
+  font-family: 'Inter', sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  h1{
+    margin: 0;
+    font-size: 1.125rem !important;
+    line-height: 1.75rem;
+  }
+}
+
+.cursor {
+  font-weight: bold;
+  font-size: 20px;
+  color: orange;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
